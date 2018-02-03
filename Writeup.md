@@ -34,11 +34,16 @@ Bilinear upsampling uses the weighted average of the nearest known pixels from t
 
 A simple brute force trial method was used to select hyper parameters. Realistic performance limitations were also considered. The following parameter settings produced the best results:
 
-learning_rate = 0.00
+learning_rate = 0.002
+
 batch_size = 50
+
 num_epochs = 100
+
 steps_per_epoch = 200
+
 validation_steps = 50
+
 workers = 2
 
 # Results

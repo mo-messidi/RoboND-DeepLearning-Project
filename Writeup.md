@@ -57,4 +57,4 @@ The best final score obtained was 0.44 with an IOU of 0.59.
 
 # Future Enhancements
 
-This model was trained based on 3 object classes (target, person and other). Including more object classes would result in better scene understanding assuming that training complexities are handled adequately. Also, a deeper network or one that is based on a tried and prove architecture like VGG may provide better results if used in the future.
+This model was trained based on 3 object classes (target, person and other) i.e. it will not identify other classes like "cat", "car" or "dog" in its current state. Including more object classes (e.g "cat" class) along with correctly labeled training images would result in better scene understanding assuming that training complexities are handled adequately. Also, a deeper network or one that is based on a tried and prove architecture like VGG may provide better results if used in the future.
